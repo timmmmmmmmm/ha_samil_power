@@ -1,9 +1,17 @@
 # Home Assistant Integration for Samil Power Inverters
 
+![Samil Power Logo](images/samil_power_logo.png)
+
 This is a **custom Home Assistant integration** based on the [Solar project](https://github.com/mhvis/solar/) by [mhvis](https://github.com/mhvis). This integration extends the functionality of the original Solar project, making it compatible as a Home Assistant custom component.
 
 ## Credits
 This integration is **heavily based on the work** of [mhvis](https://github.com/mhvis) and the original [Solar project](https://github.com/mhvis/solar/). A huge thanks for making this project possible!
+
+## Supported inverter series
+
+* SolarRiver TL-D
+* SolarLake TL
+* (Maybe also SolarRiver TL but probably not)
 
 ## Features
 - Provides real-time solar energy monitoring
@@ -29,16 +37,16 @@ This integration is **heavily based on the work** of [mhvis](https://github.com/
 After installation, go to **Settings → Devices & Services → Add Integration** and search for `Solar`. You can either manually enter your inverter's IP address or leave it blank to allow automatic discovery via UDP broadcast.
 
 ### Adding the integration
-![Adding the integration](screenshot_adding_integration.png)
+![Adding the integration](images/screenshot_adding_integration.png)
 
 ### (Hopefully) found your device
-![Found the device](screenshot_found_device.png)
+![Found the device](images/screenshot_found_device.png)
 
 ### Device settings
-![Device settings](screenshot_device_settings.png)
+![Device settings](images/screenshot_device_settings.png)
 
 ## Contributing
 Feel free to open issues or submit pull requests to improve this integration.
 
 ## License
-This project follows the same license as the original [Solar project](https://github.com/mhvis/solar/). Check the LICENSE file for more details.
+This project follows the same license as the original [Solar project](https://github.com/mhvis/solar/).
