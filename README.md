@@ -1,4 +1,4 @@
-# Home Assistant Integration for Solar
+# Home Assistant Integration for Samil Power Inverters
 
 This is a **custom Home Assistant integration** based on the [Solar project](https://github.com/mhvis/solar/) by [mhvis](https://github.com/mhvis). This integration extends the functionality of the original Solar project, making it compatible as a Home Assistant custom component.
 

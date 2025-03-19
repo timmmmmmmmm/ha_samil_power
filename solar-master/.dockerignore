@@ -1,9 +1,0 @@
-# Ignore entire parent folder and only include necessary files
-**
-!samil/**/*.py
-!tests/**/*.py
-!.dockerignore
-!LICENSE
-!README.md
-!requirements.txt
-!setup.py

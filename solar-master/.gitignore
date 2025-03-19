@@ -1,9 +1,0 @@
-/.idea/
-
-__pycache__/
-*.pyc
-
-# Distribution/packaging
-/build/
-/dist/
-/samil.egg-info/
