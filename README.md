@@ -28,8 +28,14 @@ This integration is **heavily based on the work** of [mhvis](https://github.com/
 ## Configuration
 After installation, go to **Settings → Devices & Services → Add Integration** and search for `Solar`. You can either manually enter your inverter's IP address or leave it blank to allow automatic discovery via UDP broadcast.
 
-### Configuration Screen Example
-![Configuration Screen Placeholder](placeholder.png)
+### Adding the integration
+![Adding the integration](screenshot_adding_integration.png)
+
+### (Hopefully) found your device
+![Found the device](screenshot_found_device.png)
+
+### Device settings
+![Device settings](screenshot_device_settings.png)
 
 ## Contributing
 Feel free to open issues or submit pull requests to improve this integration.
