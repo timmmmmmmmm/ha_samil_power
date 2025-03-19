@@ -36,6 +36,8 @@ class SamilPowerEntity(CoordinatorEntity[SamilPowerDataUpdateCoordinator]):
         # Create a unique ID based on the serial number and entity key
         if self._entity_key:
             self._attr_unique_id = f"{serial_number}_{self._entity_key}"
+            # Prepend "samil_" to the entity_id to make it more specific
+            self._attr_entity_id = f"samil_{self._entity_key}"
         
         # Set up device info
         self._attr_device_info = DeviceInfo(
