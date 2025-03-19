@@ -1,0 +1,14 @@
+{
+  "domain": "samil_power",
+  "name": "Samil Power",
+  "codeowners": [
+    "@https://github.com/timmmmmmmmm"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/timmmmmmmmm/ha_samil_power",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/timmmmmmmmm/ha_samil_power/issues",
+  "requirements": ["samil"],
+  "version": "0.1.0"
+}

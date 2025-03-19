@@ -1,0 +1,74 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Set up your Samil Power inverter integration. The integration will automatically discover inverters on your network using UDP broadcast.",
+                "data": {
+                    "interface": "Network Interface IP (leave empty for automatic discovery)",
+                    "inverters": "Number of Inverters to discover",
+                    "scan_interval": "Scan Interval (seconds)"
+                }
+            }
+        },
+        "error": {
+            "auth": "Authentication error.",
+            "connection": "Unable to connect to the inverter. Please check your network and ensure the inverter is powered on and connected to the same network.",
+            "unknown": "An error occurred. This might be due to a type conversion issue or network problem. Try leaving the interface field empty for automatic discovery."
+        },
+        "abort": {
+            "already_configured": "This Samil Power inverter configuration is already configured."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "output_power": {
+                "name": "Output Power"
+            },
+            "pv1_input_power": {
+                "name": "PV1 Input Power"
+            },
+            "pv2_input_power": {
+                "name": "PV2 Input Power"
+            },
+            "energy_today": {
+                "name": "Energy Today"
+            },
+            "energy_total": {
+                "name": "Energy Total"
+            },
+            "pv1_voltage": {
+                "name": "PV1 Voltage"
+            },
+            "pv2_voltage": {
+                "name": "PV2 Voltage"
+            },
+            "grid_voltage": {
+                "name": "Grid Voltage"
+            },
+            "pv1_current": {
+                "name": "PV1 Current"
+            },
+            "pv2_current": {
+                "name": "PV2 Current"
+            },
+            "grid_current": {
+                "name": "Grid Current"
+            },
+            "grid_frequency": {
+                "name": "Grid Frequency"
+            },
+            "internal_temperature": {
+                "name": "Internal Temperature"
+            },
+            "heatsink_temperature": {
+                "name": "Heatsink Temperature"
+            },
+            "operation_mode": {
+                "name": "Operation Mode"
+            },
+            "total_operation_time": {
+                "name": "Total Operation Time"
+            }
+        }
+    }
+}
