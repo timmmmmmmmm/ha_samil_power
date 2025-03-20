@@ -1,1 +1,0 @@
-"""Samil Power tools."""

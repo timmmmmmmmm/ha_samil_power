@@ -49,4 +49,9 @@ After installation, go to **Settings → Devices & Services → Add Integration*
 Feel free to open issues or submit pull requests to improve this integration.
 
 ## License
-This project follows the same license as the original [Solar project](https://github.com/mhvis/solar/).
+This project is licensed under the MIT License.
+
+- The Home Assistant integration code is Copyright (c) 2025 Tim van der Heide
+- The original samil package is Copyright (c) 2016 Maarten Visscher
+
+See the [LICENSE](LICENSE) file for details.
